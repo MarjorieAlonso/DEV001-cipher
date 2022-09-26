@@ -8,7 +8,7 @@ import cipher from '../src/cipher';
 
 describe('cipher', () => {
 
-  it('should be an object', () => {
+  it('should be an ob', () => {
     expect(typeof cipher).toBe('object');
   });
 
