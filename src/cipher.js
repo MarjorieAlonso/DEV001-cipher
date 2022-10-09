@@ -24,15 +24,15 @@ const cipher = {
   },
 
 };
-const decodificar = {
+const decode = {
   decode: function (message, offset) {
     let result = "";
     let codigo;
-    for (let i = 0; i < string.length; i++) {
+    for (let i = 0; i < message.length; i++) {
       if (message.charCodeAt(i) >= 65 && message.charCodeAt(i) <= 90) {
         codigo = (((message.charCodeAt(i) - 65) - offset) % 26) + 65;
       }
-      else if (string.charCodeAt(i) >= 97 && string.charCodeAt(i) <= 122) {
+      else if (message.charCodeAt(i) >= 97 && message.charCodeAt(i) <= 122) {
         codigo = (((message.charCodeAt(i) - 97) - offset) % 26) + 97;
       }
       else if (message.charCodeAt(i) === 32) {
@@ -41,7 +41,7 @@ const decodificar = {
       result += String.fromCharCode(codigo);
     }
     return result;
-  };
+  }
 }
 
 export default cipher;
