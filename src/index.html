@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+
+<head>
+  <title>Secret message</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h id="titulo">Bienvenido a secret message </h>
+  <p id="parrafo">Este espacio es para parejas que buscan dar rienda suelta a su imaginacion</p>
+  <p id="parrafo1">Escribe con confianza, aca no juzgamos</p>
+  <br>
+  <div id="caja">
+    <div>
+      <textarea name="mensaje" id="mensaje1" cols="50" rows="20" placeholder="escribe tu mensaje aqui"></textarea>
+      <button name="boton" id="codificar"> convertir</button>
     </div>
-    <script src="index.js" type="module"></script>
-  </body>
+    <br>
+    <div class="desplazamiento">
+      <input id="offset" type="number" name="btn" min="1" max="25" step="1">
+      <p id="codigo">elige cuantos espacios saltar el codigo</p>
+    </div>
+
+    <div>
+      <textarea name="mensajito" id="mensaje2" cols="50" rows="20"> </textarea>
+      <button name="button" id="decodificar ">revertir</button>
+    </div>
+
+  </div>
+
+  <script src="index.js" type="module"></script>
+
+</body>
+
 </html>
