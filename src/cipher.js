@@ -22,9 +22,6 @@ const cipher = {
     return result;
 
   },
-
-};
-const decode = {
   decode: function (message, offset) {
     let result = "";
     let codigo;
@@ -42,6 +39,10 @@ const decode = {
     }
     return result;
   }
-}
+
+
+};
+
+ 
 
 export default cipher;

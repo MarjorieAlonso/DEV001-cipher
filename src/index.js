@@ -1,6 +1,6 @@
 import cipher from "./cipher.js";
 
-//  funcion boton de codificar
+// funcion boton de codificar
 let button = document.getElementById("codificar");
 button.addEventListener("click", function () {
 
@@ -25,4 +25,4 @@ document.getElementById("mensaje2").addEventListener("click", function () {
     })
 }
 )
-console.log(cipher);
+
