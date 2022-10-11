@@ -1,5 +1,5 @@
 const cipher = {
-  encode: function (mensaje,offset) {
+  encode: function (offset,mensaje) {
     let result = "";
     let code;
     for (let i = 0; i < mensaje.length; i++) {
@@ -27,7 +27,7 @@ const cipher = {
     let codigo;
     for (let i = 0; i < message.length; i++) {
       if (message.charCodeAt(i) >= 65 && message.charCodeAt(i) <= 90) {
-        codigo = (((message.charCodeAt(i) - 65) - offset) % 26) + 65;
+        codigo = (((message.charCodeAt(i) + 65) - offset) % 26) + 65;
       }
       else if (message.charCodeAt(i) >= 97 && message.charCodeAt(i) <= 122) {
         codigo = (((message.charCodeAt(i) - 97) - offset) % 26) + 97;
