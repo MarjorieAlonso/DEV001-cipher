@@ -1,5 +1,10 @@
 const cipher = {
-  encode: function (offset,mensaje) {
+  encode: function (offset, mensaje) {
+    if (offset === undefined || mensaje === undefined) {
+      throw new TypeError ("te falto escribir un dato")
+    } else if (offset=== 0 || mensaje=== typeof 0){
+      throw new TypeError ("Solo puedes escribir letras")
+    }
     let result = "";
     let code;
     for (let i = 0; i < mensaje.length; i++) {
@@ -23,6 +28,11 @@ const cipher = {
 
   },
   decode: function (offset, message) {
+    if (offset === undefined || message === undefined) {
+      throw new TypeError ("te falto escribir un dato")
+    } else if (offset=== 0 || message=== typeof 0){
+      throw new TypeError ("Solo puedes escribir letras")
+    }
     let result = "";
     let codigo;
     for (let i = 0; i < message.length; i++) {
@@ -37,12 +47,13 @@ const cipher = {
       }
       result += String.fromCharCode(codigo);
     }
+
     return result;
   }
 
 
 };
 
- 
+
 
 export default cipher;
