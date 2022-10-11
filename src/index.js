@@ -1,5 +1,9 @@
 import cipher from "./cipher.js";
-
+//function caja (){
+   // document.getElementById("mensaje1","mensaje2").addEventListener("keyup", function(){
+       // this.value = this.value.toUpperCase();
+   // }, true);
+//}
 // funcion boton de codificar
 let button = document.getElementById("codificar");
 button.addEventListener("click", function () {
@@ -14,15 +18,15 @@ button.addEventListener("click", function () {
 
 })
 //funcion decodificar
-document.getElementById("mensaje2").addEventListener("click", function () {
-    let message = document.getElementById("mensaje2").value;
+    
     //console.log("mensaje2");
     //boton de decodificar
-    let boton = parseInt(document.getElementById("decodificar").value);
-    boton.addEventListener("click", function () {
+    let boton2 = (document.getElementById("decodificar"));
+    boton2.addEventListener("click", function () {
+        let message = document.getElementById("mensaje2").value;
         const offset = parseInt(document.getElementById("offset").value);
-        document.getElementById("mensaje2").valor = cipher.decodificar(message, offset);
+        document.getElementById("mensaje2").value = cipher.decode(offset, message);
     })
-}
-)
+
+
 

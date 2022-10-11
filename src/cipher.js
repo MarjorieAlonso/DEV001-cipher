@@ -1,5 +1,5 @@
 const cipher = {
-  encode: function (mensaje, offset) {
+  encode: function (mensaje,offset) {
     let result = "";
     let code;
     for (let i = 0; i < mensaje.length; i++) {
@@ -22,7 +22,7 @@ const cipher = {
     return result;
 
   },
-  decode: function (message, offset) {
+  decode: function (offset, message) {
     let result = "";
     let codigo;
     for (let i = 0; i < message.length; i++) {
