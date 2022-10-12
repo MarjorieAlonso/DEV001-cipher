@@ -9,7 +9,7 @@ button.addEventListener("click", function () {
     let mensaje = document.getElementById("mensaje1").value;
     //boton offsett
     const offset = parseInt(document.getElementById("offset").value);
-    document.getElementById("mensaje1").value = cipher.encode(offset, mensaje);
+    document.getElementById("mensaje1").value = cipher.encode(offset,mensaje);
     //console.log(mensaje);
 
 })
@@ -21,7 +21,7 @@ let boton2 = (document.getElementById("decodificar"));
 boton2.addEventListener("click", function () {
     let message = document.getElementById("mensaje2").value;
     const offset = parseInt(document.getElementById("offset").value);
-    document.getElementById("mensaje2").value = cipher.decode(offset, message);
+    document.getElementById("mensaje2").value = cipher.decode(offset,message);
 })
 
 
