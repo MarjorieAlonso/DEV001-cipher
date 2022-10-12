@@ -1,0 +1,56 @@
+html
+body{
+ color:black;
+ background-image:url(secret\ message.jpg);
+ background-size:cover;
+ background-repeat: round ;
+}
+h{
+ color:purple;
+ text-shadow:0 1px 0 rgba(247, 241, 241, 0.699);
+ font-size: 100px;
+ 
+}
+p{
+     color:purple;
+text-shadow: 0 1px 0 rgba(243, 235, 235, 0.699);
+ font-size: 30px;
+}
+
+
+#codigo{
+ color: purple;
+ text-shadow: 0 1px 0 rgba(247, 241, 241, 0.699);
+ font-size: large;
+ border: #000;
+ text-align: center;
+ position:relative;
+ 
+}
+textarea{
+background-color:rgb(17, 15, 15);
+border:black solid;
+color: aliceblue;
+font-size: medium;
+}
+#mensaje2{
+position: relative;
+
+}
+
+#decodificar{
+ display:flex;
+ position:relative;
+ 
+ 
+
+}
+#btn{
+position:relative;
+
+}
+#caja{
+     display:flex;
+ flex-direction:row ;
+}
+
