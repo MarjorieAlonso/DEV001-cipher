@@ -27,7 +27,7 @@ const cipher = {
     return result;
 
   },
-  decode: function (offset,message) {
+  decode: function (offset, message) {
     if (offset === undefined || message === undefined) {
       throw new TypeError ("te falto escribir un dato")
     } else if (offset=== 0 || message=== typeof 0){
