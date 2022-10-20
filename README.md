@@ -23,4 +23,5 @@ La primera tarea fue identificar que elementos iba a usar en  mi proyecto, por e
 ![prototipo1](https://user-images.githubusercontent.com/114000910/194762736-24219ce0-c728-4d36-af47-2d0745090f1f.jpg)
 
 Luego , hice un prototipo de alta fidelidad en figma:
-https://www.figma.com/proto/NpWGV5EskgIJDaJCics5O9/Untitled?page-id=0%3A1&node-id=1%3A4&viewport=1949%2C361%2C0.49&scaling=scale-down
+
+![Untitled](https://user-images.githubusercontent.com/114000910/196518789-09d22cc4-0869-46da-a25a-576e3d7831f6.jpg)
