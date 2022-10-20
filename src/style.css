@@ -4,6 +4,8 @@ body{
  background-image:url(secret\ message.jpg);
  background-size:cover;
  background-repeat: round ;
+ margin-left:7%;
+ 
 }
 h{
  color:purple;
@@ -23,9 +25,12 @@ text-shadow: 0 1px 0 rgba(243, 235, 235, 0.699);
  text-shadow: 0 1px 0 rgba(247, 241, 241, 0.699);
  font-size: large;
  border: #000;
- text-align: center;
- position:relative;
+ margin-right:5%;
  
+ 
+}
+#offset{
+margin-left:20% ;
 }
 textarea{
 background-color:rgb(17, 15, 15);
