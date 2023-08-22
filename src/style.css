@@ -3,59 +3,58 @@ body{
  color:black;
  background-image:url(secret\ message.jpg);
  background-size:cover;
- background-repeat: round ;
  margin-left:7%;
  
 }
 h{
- color:purple;
- text-shadow:0 1px 0 rgba(247, 241, 241, 0.699);
+ color:rgb(240, 205, 240);
+ text-shadow:0 1px 0 rgba(151, 14, 105, 0.699);
  font-size: 100px;
  
 }
 p{
-     color:purple;
-text-shadow: 0 1px 0 rgba(243, 235, 235, 0.699);
+     color: rgb(240,205,240);
+text-shadow: 0 1px 0 rgba(153, 4, 73, 0.699);
  font-size: 30px;
 }
+ .caja {
+     display: flex;
+    flex-direction: row;   
+    margin: 20px;
+}
+.caja1 .caja2{
+     display: flex;
+     flex-direction: column;
+     margin-top: 10px;
+}
 
-
-#codigo{
- color: purple;
- text-shadow: 0 1px 0 rgba(247, 241, 241, 0.699);
- font-size: large;
- border: #000;
- margin-right:5%;
- 
- 
+.btn{
+     height: 20px;
+     width: 70px;
+     margin-top: 10px;
 }
 #offset{
 margin-left:20% ;
 }
+.codigo{
+     font-size: medium;
+}
 textarea{
 background-color:rgb(17, 15, 15);
+height: 300px;
+width: 300px;
 border:black solid;
 color: aliceblue;
 font-size: medium;
 }
-#mensaje2{
-position: relative;
 
-}
 
 #decodificar{
  display:flex;
  position:relative;
- 
- 
+
 
 }
-#btn{
-position:relative;
 
-}
-#caja{
-     display:flex;
- flex-direction:row ;
-}
+
 
